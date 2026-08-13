@@ -1,103 +1,288 @@
----
-meta-description: ColdProof — cold-chain compliance platform winning first place at SP Jain Entrepreneurship Showcase. Beachhead strategy, go-to-market sequencing, and unit economics for a UAE market opportunity.
-meta-viewport: width=device-width, initial-scale=1.0
-title: ColdProof — Cold-Chain Compliance Platform
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ColdProof — Cold-Chain Compliance Platform | Urvashi Ravaria</title>
+<meta name="description" content="ColdProof — cold-chain compliance platform, first place at SP Jain Entrepreneurship Showcase. Beachhead strategy, go-to-market sequencing, and unit economics for a UAE market opportunity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F5F1E6;
+    --cream-dim:#EFE9DA;
+    --gold:#C89B3C;
+    --charcoal:#211F1A;
+    --line-light:#DAD3C2;
+    --navy:#122040;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--cream);
+    color:var(--charcoal);
+    font-family:'Work Sans',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:3rem 1.5rem 5rem;}
+  .back{
+    display:inline-block;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.75rem;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:#9C7A28;
+    text-decoration:none;
+    margin-bottom:2.5rem;
+    border-bottom:1px solid transparent;
+  }
+  .back:hover{border-bottom-color:#9C7A28;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:#9C7A28;
+    display:block;
+    margin-bottom:1rem;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:clamp(2rem, 5vw, 2.9rem);
+    line-height:1.05;
+    letter-spacing:-0.01em;
+    margin-bottom:0.6rem;
+  }
+  h1 + .subtitle{
+    font-family:'Fraunces',serif;
+    font-weight:400;
+    font-style:italic;
+    font-size:1.15rem;
+    color:#6B6552;
+    margin-bottom:1.6rem;
+  }
+  .badge{
+    display:inline-block;
+    background:var(--navy);
+    color:var(--cream);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    padding:0.5rem 0.9rem;
+    border-radius:3px;
+    margin-bottom:2.2rem;
+  }
+  .tags{display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:2.6rem;}
+  .tag{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.68rem;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    padding:0.28rem 0.55rem;
+    border:1px solid var(--line-light);
+    border-radius:2px;
+    color:#6B6552;
+    background:var(--cream-dim);
+  }
+  h2.section-head{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:1.35rem;
+    margin:0 0 0.9rem;
+    padding-top:0.4rem;
+  }
+  h3.sub-head{
+    font-family:'Work Sans',sans-serif;
+    font-weight:600;
+    font-size:0.98rem;
+    margin:1.6rem 0 0.6rem;
+    color:var(--charcoal);
+  }
+  p.body-text{
+    font-size:0.98rem;
+    line-height:1.7;
+    color:#3A372E;
+    margin-bottom:1.8rem;
+  }
+  ul.plain-list{
+    list-style:none;
+    margin-bottom:1.4rem;
+  }
+  ul.plain-list li{
+    font-size:0.95rem;
+    line-height:1.6;
+    color:#3A372E;
+    padding-left:1.3rem;
+    position:relative;
+    margin-bottom:0.55rem;
+  }
+  ul.plain-list li::before{
+    content:"—";
+    position:absolute;
+    left:0;
+    color:var(--gold);
+  }
+  table.numbers{
+    width:100%;
+    border-collapse:collapse;
+    margin:0.6rem 0 2.4rem;
+    font-size:0.92rem;
+  }
+  table.numbers th, table.numbers td{
+    text-align:left;
+    padding:0.7rem 0.9rem;
+    border-bottom:1px solid var(--line-light);
+  }
+  table.numbers th{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.68rem;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:#8A7F63;
+    font-weight:500;
+  }
+  table.numbers td:last-child{
+    font-family:'IBM Plex Mono',monospace;
+    color:var(--charcoal);
+  }
+  .two-col{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.8rem;
+    margin-bottom:1rem;
+  }
+  @media (max-width:600px){
+    .two-col{grid-template-columns:1fr;}
+  }
+  .col-block h3{
+    font-family:'Work Sans',sans-serif;
+    font-weight:600;
+    font-size:0.9rem;
+    text-transform:uppercase;
+    letter-spacing:0.03em;
+    margin-bottom:0.7rem;
+  }
+  .col-block.validated h3{color:#4B6B3F;}
+  .col-block.unproven h3{color:#9C6A28;}
+  .downloads{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.8rem;
+    margin-bottom:2.6rem;
+  }
+  .dl-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:0.5rem;
+    background:#fff;
+    border:1px solid var(--line-light);
+    color:var(--charcoal);
+    text-decoration:none;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.78rem;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    padding:0.75rem 1.1rem;
+    border-radius:3px;
+    transition:border-color 0.2s ease;
+  }
+  .dl-btn:hover{border-color:var(--gold);}
+  .note{
+    border-left:2px solid var(--gold);
+    padding:0.2rem 0 0.2rem 1.2rem;
+    font-size:0.92rem;
+    line-height:1.6;
+    color:#5A5646;
+    margin:1rem 0 3rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
 
-Brand & Marketing
+  <a class="back" href="index.html">← Back to portfolio</a>
 
-# ColdProof
-## Cold-Chain Compliance Platform for UAE
+  <span class="eyebrow">Business Strategy — 2026</span>
+  <h1>ColdProof</h1>
+  <p class="subtitle">Cold-chain compliance platform for UAE food operators</p>
+  <span class="badge">First Place — SP Jain Entrepreneurship for a Disruptive Launch Showcase</span>
 
-**First Place, SP Jain Entrepreneurship for a Disruptive Launch Showcase (2025–2026)**
+  <div class="tags">
+    <span class="tag">Go-to-Market Strategy</span>
+    <span class="tag">Market Segmentation</span>
+    <span class="tag">Unit Economics</span>
+    <span class="tag">Lean Canvas</span>
+  </div>
 
----
+  <h2 class="section-head">Why I built this</h2>
+  <p class="body-text">The UAE cold-chain market is growing 7–8% annually, projected to reach USD 1.4–2.9B by 2033, driven by high food import dependence and strict regulatory requirements. Dubai Municipality mandates HACCP-based temperature records for all high-risk foods, yet most operators still run on disconnected data loggers, manual clipboards, and fragmented spreadsheets. A single temperature excursion spoils the product and destroys the audit trail at the same time — operators lose the cargo value and the compliance proof in one event. ColdProof centralises monitoring, alerts operators before a breach happens, and generates audit-ready compliance reports on demand.</p>
 
-## The Win
+  <h2 class="section-head">The strategic play</h2>
 
-Developed and pitched a subscription-based compliance platform for UAE cold-chain operators. Winning first place in SP Jain's competitive business pitch showcase validated the strategic approach to market entry and go-to-market sequencing before entering contested pharmaceutical space.
+  <h3 class="sub-head">Why food before pharma</h3>
+  <ul class="plain-list">
+    <li>Food operators run 150–250 monitored points, move faster on buying decisions, and show moderate willingness to pay</li>
+    <li>Global pharma-grade incumbents (Sensitech, ELPRO, Controlant) over-serve high-value pharmaceutical routes and under-price the mid-market food segment</li>
+    <li>The food beachhead proves the model before a later pivot upmarket into pharmaceutical, backed by proof of adoption</li>
+  </ul>
 
----
+  <h3 class="sub-head">Why land-and-expand sequencing</h3>
+  <ul class="plain-list">
+    <li><strong>Land:</strong> direct B2B into one live facility, prove the alerts work, build a reference site</li>
+    <li><strong>Expand:</strong> same operator adds rooms and vehicles over time, per-point pricing creates natural growth</li>
+    <li><strong>Scale:</strong> channel partnerships with sensor suppliers, auditors, and insurers, only after food-side validation</li>
+  </ul>
 
-## Why I Built This
+  <h3 class="sub-head">Why this positioning is defensible</h3>
+  <ul class="plain-list">
+    <li>Regulatory lock-in — operators won't remove the system generating their audit evidence before an inspection</li>
+    <li>A data moat — accumulated excursion history makes the system more valuable the longer it runs</li>
+    <li>Regulatory mapping — compliance templates customised per emirate raise the switching cost</li>
+  </ul>
 
-The UAE cold-chain market is growing 7–8% annually (USD 1.4–2.9B by 2033), driven by high food import dependence and strict regulatory requirements. Dubai Municipality mandates HACCP-based temperature records for all high-risk foods, yet operators still use disconnected data loggers, manual clipboards, and fragmented spreadsheets. A single temperature excursion spoils the product and destroys the audit trail simultaneously — operators lose both the cargo value and compliance proof in one event. ColdProof solves this by centralizing monitoring, alerting operators before a breach occurs, and generating audit-ready compliance reports on demand.
+  <h2 class="section-head">The numbers</h2>
+  <table class="numbers">
+    <tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Mid-size operator</td><td>200 monitored points</td></tr>
+    <tr><td>Price per point / month</td><td>AED 40 (mid-point of AED 30–80 range)</td></tr>
+    <tr><td>Monthly recurring revenue / account</td><td>AED 8,000</td></tr>
+    <tr><td>Annual recurring revenue / account</td><td>AED 96,000</td></tr>
+    <tr><td>Gross margin</td><td>70–80%</td></tr>
+    <tr><td>Build cost (v1)</td><td>AED 0.8–1.5M</td></tr>
+    <tr><td>10-account revenue run rate</td><td>AED 4.8M+ / year</td></tr>
+  </table>
+  <p class="body-text">This is an asset-light model — recurring revenue without the capital burden of owning refrigeration. Gross margin stays high because hardware is passed through to customers or amortised; the defensible asset is the compliance record itself, not the equipment.</p>
 
----
+  <h2 class="section-head">Validated vs. unproven</h2>
+  <div class="two-col">
+    <div class="col-block validated">
+      <h3>Validated</h3>
+      <ul class="plain-list">
+        <li>Market need is real — the regulatory mandate and food-loss problem are documented in peer-reviewed literature</li>
+        <li>A competitor gap exists — incumbents neglect the mid-market food segment</li>
+        <li>The technology stack is proven — LoRaWAN, Bluetooth, cloud infrastructure, and SaaS billing are all mature</li>
+      </ul>
+    </div>
+    <div class="col-block unproven">
+      <h3>Still unproven</h3>
+      <ul class="plain-list">
+        <li>Willingness to pay in the food segment — assumed moderate, needs a pilot deployment</li>
+        <li>Sales cycle velocity — unknown until the first live facility is onboarded</li>
+      </ul>
+    </div>
+  </div>
+  <p class="body-text">How I'd test it: run a pilot with one cold-storage operator and measure alert reliability, in-facility adoption, and CAC payback. Instrument from day one — track ARR, net revenue retention, and gross margin against projections — and let the results decide the next funding phase and channel sequence.</p>
 
-## The Strategic Play
+  <h2 class="section-head">Downloads</h2>
+  <div class="downloads">
+    <a class="dl-btn" href="REPLACE_COLDPROOF_BUSINESS_PLAN_PDF" target="_blank" rel="noopener">Full Business Plan (PDF) ↗</a>
+    <a class="dl-btn" href="coldproof-pitch-deck.pdf" target="_blank" rel="noopener">5-Slide Pitch Deck (PDF) ↗</a>
+  </div>
 
-**Why food before pharma:**
-- Food operators run 150–250 monitored points; faster buying decisions; moderate willingness to pay
-- Global pharma-grade incumbents (Sensitech, ELPRO, Controlant) over-serve high-value pharmaceutical routes and under-price the mid-market food segment
-- Beachhead proves the model; later pivot upmarket into pharmaceutical with proof of adoption
+  <p class="note">Completed as part of SP Jain's Entrepreneurship for a Disruptive Launch module, taught by Prof. Roshni Paul. The plan follows a structured approach to de-risk assumptions — validating market need and competitor positioning before deployment, sequencing go-to-market channels to de-risk early-stage sales, and instrumenting unit economics from the first customer.</p>
 
-**Why land-and-expand sequencing:**
-- Land: Direct B2B into one live facility; prove alerts work; build reference site
-- Expand: Same operator adds rooms/vehicles over time; per-point pricing creates natural growth
-- Scale: Channel partnerships (sensor suppliers, auditors, insurers) only after food-side validation
-
-**Why this positioning is defensible:**
-- Regulatory lock-in: operators won't remove the system generating audit evidence before an inspection
-- Data moat: accumulated excursion history makes the system more valuable as it runs
-- Regulatory mapping: compliance templates customized per emirate reduce switching cost
-
----
-
-## The Numbers
-
-| Metric | Value |
-|--------|-------|
-| Mid-size operator | 200 monitored points |
-| Price per point/month | AED 40 (mid-point of AED 30–80 range) |
-| Monthly recurring revenue/account | AED 8,000 |
-| Annual recurring revenue/account | AED 96,000 |
-| Gross margin | 70–80% |
-| Build cost (v1) | AED 0.8–1.5M |
-| 10-account revenue run rate | AED 4.8M+/year |
-
-**What these numbers mean:** Asset-light model with recurring revenue eliminates the capital burden of owning refrigeration. Gross margin stays high because hardware is passed through to customers or amortized; defensible asset is the compliance record.
-
----
-
-## Validated vs. Unproven
-
-**What I validated:**
-- Market need is real: regulatory mandate + food loss problem documented in peer-reviewed literature
-- Competitor gap exists: incumbents neglect the mid-market food segment
-- Technology stack is proven: LoRaWAN, Bluetooth, cloud infrastructure, SaaS billing all mature
-
-**What's still unproven:**
-- Willingness to pay in food segment (assumed moderate; needs pilot deployment)
-- Sales cycle velocity (unknown until first live facility is onboarded)
-
-**How I'd test it:**
-- Pilot with one cold-storage operator: measure alert reliability, adoption inside facility, CAC payback
-- Instrument from day one: track ARR, net revenue retention, gross margin against projections
-- Results determine next phase funding and channel expansion sequence
-
----
-
-## Downloads
-
-[Download Full Business Plan (PDF) ↗](./coldproof-business-plan.pdf)
-
-[Download 5-Slide Pitch Deck (PDF) ↗](./coldproof-pitch-deck.pdf)
-
----
-
-## Context
-
-This work was completed as part of SP Jain's Entrepreneurship for a Disruptive Launch module, taught by Prof. Roshni Paul. The business plan follows a structured approach to de-risk assumptions: validating market need and competitor positioning before deployment, sequencing go-to-market channels to de-risk early-stage sales, and instrumenting unit economics from the first customer.
-
-**Skills:** Go-to-market strategy • Market segmentation • Competitive positioning • Financial modeling • Risk analysis • Stakeholder mapping
-
-**Tools:** Market research • Financial modeling • Lean Canvas • Stakeholder mapping • Customer discovery planning
-
----
-
-← Back to portfolio
-
----
-
-urvashiravaria@gmail.com | Dubai, UAE
+</div>
+</body>
+</html>
