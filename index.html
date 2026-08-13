@@ -1,25 +1,295 @@
----
-meta-description: Portfolio of Urvashi Ravaria — brand and marketing case studies spanning campaign strategy and data-led decision tools.
-meta-viewport: width=device-width, initial-scale=1.0
-title: Urvashi Ravaria — Brand & Marketing
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urvashi Ravaria — Brand &amp; Marketing</title>
+<meta name="description" content="Portfolio of Urvashi Ravaria — brand and marketing case studies spanning campaign strategy and data-led decision tools.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#122040;
+    --navy-deep:#0c1730;
+    --cream:#F5F1E6;
+    --cream-dim:#EFE9DA;
+    --gold:#C89B3C;
+    --gold-soft:#D9B968;
+    --charcoal:#211F1A;
+    --line:#3A4766;
+    --line-light:#DAD3C2;
+    --off-white:#EFEAE0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--navy);
+    color:var(--off-white);
+    font-family:'Work Sans',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
 
-Brand & Marketing
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+  }
 
-# Urvashi Ravaria
+  /* ===== HEADER ===== */
+  header{
+    padding:5.5rem 1.5rem 4rem;
+    max-width:920px;
+    margin:0 auto;
+    position:relative;
+  }
+  header .eyebrow{margin-bottom:1.1rem;display:block;}
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:clamp(2.6rem, 7vw, 4.6rem);
+    line-height:0.98;
+    letter-spacing:-0.01em;
+    color:var(--cream);
+  }
+  .accent-curve{
+    width:150px;
+    height:28px;
+    margin:1.1rem 0 1.6rem;
+    display:block;
+  }
+  header p.role{
+    font-size:clamp(1.05rem, 2.2vw, 1.3rem);
+    max-width:560px;
+    color:var(--off-white);
+    line-height:1.55;
+    opacity:0.92;
+  }
+  header p.role strong{color:var(--gold-soft);font-weight:600;}
 
-Building go-to-market thinking across brands and categories — from consumer insight to campaign execution.
+  /* ===== PROJECTS SECTION ===== */
+  main{
+    background:var(--cream);
+    border-radius:28px 28px 0 0;
+    padding:3.5rem 1.5rem 2rem;
+  }
+  .projects-wrap{max-width:920px;margin:0 auto;}
+  .section-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:#8A7F63;
+    margin-bottom:2rem;
+    padding-bottom:0.9rem;
+    border-bottom:1px solid var(--line-light);
+  }
 
-Selected work
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.5rem;
+  }
+  @media (max-width:720px){
+    .grid{grid-template-columns:1fr;}
+  }
 
-[Campaign — 2025 ↗ Alchemist: Real Estate Campaign Direction Creative direction and client servicing across two real-estate brands at opposite ends of the market — Runwal Enterprises and JP Infra — translating client positioning into 40+ OOH and print executions. Creative Direction Client Servicing OOH / Print](https://urvashirm.github.io/urvashi-ravaria.github.io/alchemist.html)
+  .card{
+    display:block;
+    text-decoration:none;
+    color:var(--charcoal);
+    background:#fff;
+    border:1px solid var(--line-light);
+    border-radius:4px;
+    padding:1.9rem 1.7rem 1.7rem;
+    transition:transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    position:relative;
+    overflow:hidden;
+  }
+  .card::before{
+    content:"";
+    position:absolute;
+    top:0;left:0;
+    width:100%;
+    height:3px;
+    background:var(--gold);
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 0.28s ease;
+  }
+  .card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 14px 32px -14px rgba(18,32,64,0.28);
+    border-color:transparent;
+  }
+  .card:hover::before{transform:scaleX(1);}
 
-[Business Strategy — 2026 ↗ ColdProof: Cold-Chain Compliance Platform First place winner in SP Jain's Entrepreneurship Showcase. Subscription-based compliance platform for UAE cold-chain operators, combining real-time monitoring, pre-breach alerts, and audit-ready reports. Beachhead strategy prioritizes under-served food segment before contested pharma space. Go-to-Market Strategy Market Segmentation Unit Economics](https://urvashirm.github.io/urvashi-ravaria.github.io/coldproof.html)
+  .card .meta-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:0.9rem;
+  }
+  .card .meta-row .eyebrow{color:#9C7A28;}
+  .card .arrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:1rem;
+    color:#9C7A28;
+    transition:transform 0.22s ease;
+  }
+  .card:hover .arrow{transform:translate(3px,-3px);}
 
-[Dashboard — 2026 ↗ Leaf Cutlery: Demand & Behaviour Analytics Live decision-support dashboard for a sustainable cutlery brand. Built the market-basket analysis, demand forecasting, and a live customer-scoring tool from a 2,000-respondent survey. Forecasting Market Basket Streamlit](https://urvashirm.github.io/urvashi-ravaria.github.io/leaf-cutlery.html)
+  .card h2{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:1.5rem;
+    line-height:1.18;
+    margin-bottom:0.7rem;
+    letter-spacing:-0.005em;
+  }
+  .card p.desc{
+    font-size:0.95rem;
+    line-height:1.55;
+    color:#4A473E;
+    margin-bottom:1.15rem;
+  }
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.4rem;
+  }
+  .tag{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.68rem;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    padding:0.28rem 0.55rem;
+    border:1px solid var(--line-light);
+    border-radius:2px;
+    color:#6B6552;
+    background:var(--cream-dim);
+  }
 
-[Research — 2026 ↗ Algorithmic Personalization & Purchase Intent Dissertation study using a Usage & Attitude framework and PLS-SEM analysis to measure how algorithmic personalization drives online purchase intention, on a 200-respondent dataset. PLS-SEM Consumer Research](https://urvashirm.github.io/urvashi-ravaria.github.io/sem-pls-research.html)
+  .card.placeholder{
+    opacity:0.72;
+    border-style:dashed;
+  }
+  .card.placeholder .meta-row .eyebrow{color:#A39A7E;}
 
----
+  /* ===== FOOTER ===== */
+  footer{
+    max-width:920px;
+    margin:0 auto;
+    padding:3.5rem 1.5rem 4rem;
+    border-top:1px solid var(--line-light);
+    margin-top:2.5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:1rem;
+  }
+  footer a.email{
+    font-family:'Fraunces',serif;
+    font-size:1.15rem;
+    font-weight:500;
+    color:var(--charcoal);
+    text-decoration:none;
+    border-bottom:1.5px solid var(--gold);
+    padding-bottom:2px;
+    transition:color 0.2s ease;
+  }
+  footer a.email:hover{color:#9C7A28;}
+  footer .foot-note{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.7rem;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:#A39A7E;
+  }
+</style>
+</head>
+<body>
 
-<urvashiravaria@gmail.com> Dubai, UAE
+<header>
+  <span class="eyebrow">Brand &amp; Marketing</span>
+  <h1>Urvashi<br>Ravaria</h1>
+  <svg class="accent-curve" viewBox="0 0 150 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2 22C30 22 34 4 62 4C90 4 94 22 122 22C132 22 138 18 148 10" stroke="#C89B3C" stroke-width="3" stroke-linecap="round"/>
+  </svg>
+  <p class="role">Brand and marketing strategist building <strong>go-to-market thinking</strong> for FMCG and personal care — from campaign execution to the data behind the decision.</p>
+</header>
+
+<main>
+  <div class="projects-wrap">
+    <div class="section-label">Selected work</div>
+    <div class="grid">
+
+      <a class="card" href="alchemist.html">
+        <div class="meta-row">
+          <span class="eyebrow">Campaign — 2025</span>
+          <span class="arrow">↗</span>
+        </div>
+        <h2>Alchemist: Real Estate Campaign Direction</h2>
+        <p class="desc">Creative direction and client servicing across two real-estate brands at opposite ends of the market — Runwal Enterprises and JP Infra — translating client positioning into 40+ OOH and print executions.</p>
+        <div class="tags">
+          <span class="tag">Creative Direction</span>
+          <span class="tag">Client Servicing</span>
+          <span class="tag">OOH / Print</span>
+        </div>
+      </a>
+
+      <a class="card" href="leaf-cutlery.html">
+        <div class="meta-row">
+          <span class="eyebrow">Dashboard — 2026</span>
+          <span class="arrow">↗</span>
+        </div>
+        <h2>Leaf Cutlery: Demand &amp; Behaviour Analytics</h2>
+        <p class="desc">Live decision-support dashboard for a sustainable cutlery brand. Built the market-basket analysis, demand forecasting, and a live customer-scoring tool from a 2,000-respondent survey.</p>
+        <div class="tags">
+          <span class="tag">Forecasting</span>
+          <span class="tag">Market Basket</span>
+          <span class="tag">Streamlit</span>
+        </div>
+      </a>
+
+      <a class="card" href="sem-pls-research.html">
+        <div class="meta-row">
+          <span class="eyebrow">Research — 2026</span>
+          <span class="arrow">↗</span>
+        </div>
+        <h2>Algorithmic Personalization &amp; Purchase Intent</h2>
+        <p class="desc">Dissertation study using a Usage &amp; Attitude framework and PLS-SEM analysis to measure how algorithmic personalization drives online purchase intention, on a 200-respondent dataset.</p>
+        <div class="tags">
+          <span class="tag">PLS-SEM</span>
+          <span class="tag">Consumer Research</span>
+        </div>
+      </a>
+
+      <a class="card" href="coldproof.html">
+        <div class="meta-row">
+          <span class="eyebrow">Business Strategy — 2026</span>
+          <span class="arrow">↗</span>
+        </div>
+        <h2>ColdProof: Cold-Chain Compliance Platform</h2>
+        <p class="desc">First place, SP Jain Entrepreneurship Showcase. Subscription-based compliance platform for UAE cold-chain operators — a beachhead strategy targeting the underserved food segment before pharma.</p>
+        <div class="tags">
+          <span class="tag">Go-to-Market Strategy</span>
+          <span class="tag">Unit Economics</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <footer>
+    <a class="email" href="mailto:urvashiravaria@gmail.com">urvashiravaria@gmail.com</a>
+    <span class="foot-note">Dubai, UAE</span>
+  </footer>
+</main>
+
+</body>
+</html>
